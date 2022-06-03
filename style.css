@@ -14,8 +14,9 @@ section article {
   height: 200px;
   width: 50%;
   box-sizing: border-box;
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
+  flex-grow: 0;
 }
 
 .Caja2 {
@@ -29,6 +30,17 @@ section article {
   font-size: 200px;
   /*   text-align: center; */
   padding: auto;
+}
+
+.social {
+  color: rgba(192, 55, 55, 1);
+  font-size: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+  margin-top: 80px;
+  margin-left: 200px;
+  align-content: space-around;
 }
 
 .Caja3 {
@@ -57,6 +69,42 @@ section article {
   text-align: center;
   display: flex;
   list-style: none;
+}
+
+.box input {
+  position: relative;
+  width: 90px;
+  height: 50px;
+}
+
+.box {
+  border-radius: 20px;
+  background: rgba(192, 55, 55, 0.5);
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  font-size: 25px;
+  display: table-row;
+  font-family: roboto;
+  color: rgba(192, 55, 55, 1);
+  display: inline-table;
+  text-align: center;
+}
+
+.box img {
+  height: 150px;
+  width: 200px;
+  margin: 10px;
+}
+
+.column {
+  padding: 5px;
+}
+
+.column img {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
 }
 
 .button a:hover {
