@@ -153,6 +153,7 @@ section article {
 
 .linksUl li a:link {
   text-decoration: none;
+  color: rgba(192, 55, 55, 1);
 }
 
 .linksUl li a:hover {
