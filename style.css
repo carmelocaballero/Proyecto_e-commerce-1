@@ -1,5 +1,6 @@
 section article {
   text-align: center;
+  box-sizing: border-box;
 }
 
 #cabecera {
@@ -32,19 +33,8 @@ section article {
   padding: auto;
 }
 
-.social {
-  color: rgba(192, 55, 55, 1);
-  font-size: 100px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: auto;
-  margin-top: 80px;
-  margin-left: 200px;
-  align-content: space-around;
-}
-
 .Caja3 {
-  width: 1245px;
+  width: 1366px;
   height: 50px;
   background: black;
   color: rgba(192, 55, 55, 1);
@@ -56,19 +46,26 @@ section article {
 }
 
 .button {
+  text-align: center;
+}
+
+.button a {
   border-radius: 10px;
   background: rgba(192, 55, 55, 0.5);
-  color: rgba(121, 56, 56, 1);
+  color: rgba(192, 55, 55, 1);
   flex-direction: column;
-  line-height: 30px;
+  display: inline-table;
+  /* line-height: 30px; */
   height: 80px;
   width: 300px;
-  margin: 50px;
+  margin: 40px;
   font-size: 20px;
   font-family: roboto;
-  text-align: center;
+  /*  text-align: center; */
   display: flex;
-  list-style: none;
+  /* list-style: none; */
+  text-decoration: none;
+  text-align: center;
 }
 
 .box input {
@@ -82,9 +79,9 @@ section article {
   background: rgba(192, 55, 55, 0.5);
   height: 200px;
   width: 200px;
-  margin: 20px;
+  margin: 10px;
   font-size: 25px;
-  display: table-row;
+  /* display: table-row; */
   font-family: roboto;
   color: rgba(192, 55, 55, 1);
   display: inline-table;
@@ -97,9 +94,9 @@ section article {
   margin: 10px;
 }
 
-.column {
+/* .column {
   padding: 5px;
-}
+} */
 
 .column img {
   margin-top: 10px;
@@ -107,11 +104,21 @@ section article {
   height: 200px;
 }
 
-.button a:hover {
+/* .button a:hover {
   color: rgba(192, 55, 55, 1);
   font-family: roboto;
   transform: scale(1.2);
   text-decoration: none;
+} */
+
+.section {
+  float: right;
+  float: inline-end;
+  width: 900px;
+  margin-top: -430px;
+  margin-right: auto;
+  margin-left: 25px;
+  flex-direction: row;
 }
 
 .contenidoFooter {
