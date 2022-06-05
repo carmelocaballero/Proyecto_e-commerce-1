@@ -21,18 +21,18 @@ section article {
 }
 
 .Caja2 {
-  width: 100%;
+  width: 1370px;
   height: auto;
   display: flex;
   margin: 0px;
   flex-wrap: wrap;
   text-align: center;
-  font-size: 200px;
+  font-size: 220px;
   padding: auto;
 }
 
 .Caja3 {
-  width: 1366px;
+  width: 1370px;
   height: 50px;
   background: black;
   color: rgba(192, 55, 55, 1);
@@ -98,7 +98,7 @@ section article {
   float: right;
   width: 800px;
   margin-top: -430px;
-  margin-right: 300px;
+  margin-right: 100px;
   margin-left: 100px;
   flex-direction: row;
 }
@@ -109,10 +109,12 @@ section article {
     rgba(192, 55, 55, 0.3),
     rgba(192, 55, 55, 0.6)
   );
+
   display: flex;
   justify-content: space-between;
   padding: 10px;
   color: white;
+  width: 1370px;
 }
 
 .linksUl {
@@ -134,7 +136,13 @@ section article {
 
 .linksUl li a:link {
   text-decoration: none;
+}
+
+.button a:hover {
   color: rgba(192, 55, 55, 1);
+  font-family: roboto;
+  transform: scale(1.1);
+  text-decoration: none;
 }
 
 .linksUl li a:hover {
