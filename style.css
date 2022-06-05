@@ -23,13 +23,11 @@ section article {
 .Caja2 {
   width: 100%;
   height: auto;
-  /* background: transparent; */
   display: flex;
   margin: 0px;
   flex-wrap: wrap;
   text-align: center;
   font-size: 200px;
-  /*   text-align: center; */
   padding: auto;
 }
 
@@ -55,15 +53,12 @@ section article {
   color: rgba(192, 55, 55, 1);
   flex-direction: column;
   display: inline-table;
-  /* line-height: 30px; */
   height: 80px;
   width: 300px;
   margin: 40px;
   font-size: 20px;
   font-family: roboto;
-  /*  text-align: center; */
   display: flex;
-  /* list-style: none; */
   text-decoration: none;
   text-align: center;
 }
@@ -81,7 +76,6 @@ section article {
   width: 200px;
   margin: 10px;
   font-size: 25px;
-  /* display: table-row; */
   font-family: roboto;
   color: rgba(192, 55, 55, 1);
   display: inline-table;
@@ -94,30 +88,19 @@ section article {
   margin: 10px;
 }
 
-/* .column {
-  padding: 5px;
-} */
-
 .column img {
   margin-top: 10px;
   width: 200px;
   height: 200px;
 }
 
-/* .button a:hover {
-  color: rgba(192, 55, 55, 1);
-  font-family: roboto;
-  transform: scale(1.2);
-  text-decoration: none;
-} */
-
 .section {
   float: right;
-  float: inline-end;
-  width: 900px;
+
+  width: 800px;
   margin-top: -430px;
-  margin-right: auto;
-  margin-left: 25px;
+  margin-right: 100px;
+  margin-left: 0px;
   flex-direction: row;
 }
 
@@ -127,7 +110,6 @@ section article {
     rgba(192, 55, 55, 0.3),
     rgba(192, 55, 55, 0.6)
   );
-
   display: flex;
   justify-content: space-between;
   padding: 10px;
