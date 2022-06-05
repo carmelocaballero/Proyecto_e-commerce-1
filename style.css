@@ -96,11 +96,10 @@ section article {
 
 .section {
   float: right;
-
   width: 800px;
   margin-top: -430px;
-  margin-right: 100px;
-  margin-left: 0px;
+  margin-right: 300px;
+  margin-left: 100px;
   flex-direction: row;
 }
 
